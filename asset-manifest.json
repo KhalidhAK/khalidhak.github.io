@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/khalidhak.github.io/static/css/main.a5cae87c.css",
-    "main.js": "/khalidhak.github.io/static/js/main.b9fca60d.js",
-    "static/js/453.3f7f8959.chunk.js": "/khalidhak.github.io/static/js/453.3f7f8959.chunk.js",
-    "static/media/logo.svg": "/khalidhak.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/khalidhak.github.io/index.html",
-    "main.a5cae87c.css.map": "/khalidhak.github.io/static/css/main.a5cae87c.css.map",
-    "main.b9fca60d.js.map": "/khalidhak.github.io/static/js/main.b9fca60d.js.map",
-    "453.3f7f8959.chunk.js.map": "/khalidhak.github.io/static/js/453.3f7f8959.chunk.js.map"
+    "main.css": "/static/css/main.a5cae87c.css",
+    "main.js": "/static/js/main.33eb6afc.js",
+    "static/js/453.3f7f8959.chunk.js": "/static/js/453.3f7f8959.chunk.js",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.a5cae87c.css.map": "/static/css/main.a5cae87c.css.map",
+    "main.33eb6afc.js.map": "/static/js/main.33eb6afc.js.map",
+    "453.3f7f8959.chunk.js.map": "/static/js/453.3f7f8959.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a5cae87c.css",
-    "static/js/main.b9fca60d.js"
+    "static/js/main.33eb6afc.js"
   ]
 }
