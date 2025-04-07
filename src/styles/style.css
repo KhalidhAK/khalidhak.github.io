@@ -1,0 +1,308 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Calibri', 'Roboto', Arial, sans-serif; /* Updated to use Calibri */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #fff;
+    color: #333; /* Slight greyish black for normal text */
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background: #000;
+    color: #fff; /* Ensure text color is white in dark mode */
+}
+
+/* Ensure header text color changes in dark mode */
+body.dark-mode header {
+    color: #fff;
+}
+
+/* Ensure section text color changes in dark mode */
+body.dark-mode section {
+    background: none; /* Ensure no background in dark mode */
+    color: #fff; /* Ensure text is white in dark mode */
+}
+
+/* Ensure footer text color changes in dark mode */
+body.dark-mode footer {
+    color: #fff;
+}
+
+/* Ensure links are visible in dark mode */
+body.dark-mode a {
+    color: #ffc100; /* Highlight color for links */
+}
+
+body.dark-mode a:hover {
+    color: #e6a800; /* Slightly darker highlight on hover */
+}
+
+/* Header styles */
+header {
+    background: linear-gradient(90deg, #0070c0, #005a99); /* Updated to match #0070c0 */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+header ul li {
+    display: inline;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+header ul li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Dark mode toggle styles */
+.dark-mode-toggle {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+body.dark-mode .dark-mode-toggle {
+    color: #ffc100;
+}
+
+.dark-mode-toggle:hover {
+    color: #ffc100;
+}
+
+/* Main content styles */
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Remove card-like appearance for sections */
+section {
+    margin-bottom: 2rem;
+    background: none; /* Remove background */
+    border: none; /* Remove border */
+    box-shadow: none; /* Remove shadow */
+    transition: color 0.3s ease; /* Keep color transition for dark mode */
+}
+
+body.dark-mode section {
+    background: none; /* Ensure no background in dark mode */
+    color: #fff; /* Ensure text is white in dark mode */
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #0070c0; /* Keep heading color */
+}
+
+section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: inherit; /* Inherit text color */
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    margin-bottom: 0.5rem;
+}
+
+section ul li a {
+    color: #ffc100; /* Highlight color for links */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+section ul li a:hover {
+    color: #e6a800; /* Slightly darker highlight on hover */
+}
+
+/* Remove specific container styles for About */
+.about-container {
+    padding: 0; /* Remove padding specific to the container */
+    background: none; /* Remove background */
+    border: none; /* Remove border */
+    box-shadow: none; /* Remove shadow */
+}
+
+body.dark-mode .about-container {
+    background: none; /* Ensure no background in dark mode */
+    color: #fff;
+}
+
+.about-heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #0070c0;
+}
+
+.about-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+}
+
+body.dark-mode .about-text {
+    color: #fff; /* Ensure text is white in dark mode */
+}
+
+/* Remove card-like appearance for Skills */
+.skills-container {
+    padding: 0; /* Remove padding specific to the container */
+    background: none; /* Remove background */
+    border: none; /* Remove border */
+    box-shadow: none; /* Remove shadow */
+}
+
+body.dark-mode .skills-container {
+    background: none; /* Ensure no background in dark mode */
+    color: #fff;
+}
+
+.skills-heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #0070c0;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+}
+
+body.dark-mode .skills-list {
+    color: #fff; /* Ensure text is white in dark mode */
+}
+
+.skills-list li {
+    margin-bottom: 0.5rem;
+}
+
+/* Remove card-like appearance for WorkExperience */
+.work-experience-container {
+    padding: 0; /* Remove padding specific to the container */
+    background: none; /* Remove background */
+    border: none; /* Remove border */
+    box-shadow: none; /* Remove shadow */
+}
+
+body.dark-mode .work-experience-container {
+    background: none; /* Ensure no background in dark mode */
+    color: #fff;
+}
+
+.work-experience-heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #0070c0;
+}
+
+.work-experience-item {
+    margin-bottom: 1.5rem;
+}
+
+.work-experience-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+body.dark-mode .work-experience-item h3 {
+    color: #fff;
+}
+
+.work-experience-item ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+}
+
+.work-experience-item ul li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+body.dark-mode .work-experience-item ul li {
+    color: #fff;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #0070c0; /* Updated to match #0070c0 */
+    color: #fff;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode footer {
+    background: #005a99; /* Dark mode footer background */
+    color: #fff;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+    }
+}
