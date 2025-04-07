@@ -13,7 +13,7 @@ export default function WorkExperience() {
         </ul>
       </div>
       <div className="work-experience-item">
-        <h3>Software Development Engineer II | Mr. Cooper, Chennai, India</h3>
+        <h3>Software Development Engineer II | Mr. Cooper</h3>
         <p><strong>May 2022 – Apr 2024</strong></p>
         <ul>
           <li>Engineered REST APIs for efficient data production to Kafka topics, utilizing Apigee to ensure secure and scalable access across multiple teams and applications, ensuring 0 data loss for 10K+ requests/min, improving system availability to 99.9%.</li>
@@ -23,7 +23,7 @@ export default function WorkExperience() {
         </ul>
       </div>
       <div className="work-experience-item">
-        <h3>Software Development Engineer | Mr. Cooper, Chennai, India</h3>
+        <h3>Software Development Engineer | Mr. Cooper</h3>
         <p><strong>July 2020 – Apr 2022</strong></p>
         <ul>
           <li>Played a key role in the end-to-end development of a centralized platform for Kafka topic management, and access control, streamlining the management of 2000+ Kafka topics across clusters.</li>
@@ -33,7 +33,7 @@ export default function WorkExperience() {
         </ul>
       </div>
       <div className="work-experience-item">
-        <h3>Graduate Intern | Mr. Cooper, Chennai, India</h3>
+        <h3>Graduate Intern | Mr. Cooper</h3>
         <p><strong>Jan 2020 - Jun 2020</strong></p>
         <ul>
           <li>Developed Kafka library wrappers as Python packages and Ruby gems, simplifying integration, ensuring reliable message delivery, and enabling seamless data serialization to streamline workflows and enhance performance.</li>

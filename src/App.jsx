@@ -20,7 +20,7 @@ export default function App() {
     <>
       <header>
         <h1>KHALIDH AHAMED</h1>
-        <button
+        {/* <button
           onClick={toggleDarkMode}
           className="dark-mode-toggle"
           style={{
@@ -40,11 +40,11 @@ export default function App() {
           ) : (
             <FaMoon style={{ color: "white" }} /> // Moon icon with blue color
           )}
-        </button>
+        </button> */}
         <div style={{ marginTop: "1rem", fontSize: "0.9rem", color: "#fff" }}>
           <a href="mailto:khalidh98@gmail.com" style={{ color: "#ffc100", textDecoration: "none" }}>khalidh98@gmail.com</a> | 
           <a href="https://www.linkedin.com/in/khalidh-ahamed" target="_blank" rel="noopener noreferrer" style={{ color: "#ffc100", textDecoration: "none", marginLeft: "0.5rem" }}>LinkedIn</a> | 
-          <a href="assests\khalidh_ahamed.pdf" target="_blank" rel="noopener noreferrer" style={{ color: "#ffc100", textDecoration: "none", marginLeft: "0.5rem" }}>Resume</a>
+          <a href="/khalidh_ahamed_resume.pdf" target="_blank" rel="noopener noreferrer" style={{ color: "#ffc100", textDecoration: "none", marginLeft: "0.5rem" }}>Resume</a>
         </div>
       </header>
       <main>
