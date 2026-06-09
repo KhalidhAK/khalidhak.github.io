@@ -287,6 +287,63 @@ body.dark-mode footer {
     color: #fff;
 }
 
+/* Publications section styles */
+.publications-container {
+    padding: 0;
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+body.dark-mode .publications-container {
+    background: none;
+    color: #fff;
+}
+
+.publications-heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #0070c0;
+}
+
+.publications-list {
+    list-style: none;
+    padding: 0;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+}
+
+body.dark-mode .publications-list {
+    color: #fff;
+}
+
+.publications-list li {
+    margin-bottom: 1rem;
+}
+
+.publications-list a {
+    color: #ffc100;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.publications-list a:hover {
+    color: #e6a800;
+    text-decoration: underline;
+}
+
+.publication-source {
+    font-size: 0.9rem;
+    color: #666;
+    font-weight: normal;
+}
+
+body.dark-mode .publication-source {
+    color: #ccc;
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
     header h1 {

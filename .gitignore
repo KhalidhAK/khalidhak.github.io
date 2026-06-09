@@ -4,3 +4,10 @@ node_modules/
 *.log
 *.tmp
 *.map
+
+# Ignore lock files
+package-lock.json
+yarn.lock
+
+# Ignore sensitive files
+khalidh_ahamed_resume.docx

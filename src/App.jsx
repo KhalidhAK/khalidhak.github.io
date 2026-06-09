@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import WorkExperience from "./components/WorkExperience";
+import Publications from "./components/Publications";
 import { FaSun, FaMoon } from "react-icons/fa"; // Import icons
 
 export default function App() {
@@ -54,6 +55,9 @@ export default function App() {
         </section>
         <section id="work-experience">
           <WorkExperience />
+        </section>
+        <section id="publications">
+          <Publications />
         </section>
         {/* Remove the Contact section */}
       </main>
