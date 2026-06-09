@@ -9,17 +9,20 @@ export default function Publications() {
 
   return (
     <section className="publications-container">
-      <h2 className="publications-heading">Publications</h2>
-      <ul className="publications-list">
+      <div className="section-heading">
+        <p className="section-kicker">Writing</p>
+        <h2>Sharing practical patterns from streaming data work.</h2>
+      </div>
+      <div className="publications-list">
         {publications.map((pub, index) => (
-          <li key={index}>
+          <article key={index} className="publication-card">
+            <span>{pub.source}</span>
             <a href={pub.url} target="_blank" rel="noopener noreferrer">
               {pub.title}
             </a>
-            <span className="publication-source"> - {pub.source}</span>
-          </li>
+          </article>
         ))}
-      </ul>
+      </div>
     </section>
   );
 }

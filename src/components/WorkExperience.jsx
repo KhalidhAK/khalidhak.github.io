@@ -1,47 +1,103 @@
 export default function WorkExperience() {
+  const experiences = [
+    {
+      role: "Sr. Software Development Engineer",
+      company: "Rocket India",
+      detail: "formerly Mr. Cooper · Chennai, India",
+      period: "May 2024 - Present",
+      theme: "Kafka migration leadership",
+      metrics: ["200+ topics", "20+ app teams", "Zero data loss"],
+      highlights: [
+        "Led large-scale Kafka cluster migration from Confluent public clusters to private clusters across enterprise application teams.",
+        "Designed cluster linking and topic mirroring strategies to keep data flowing through a zero-downtime migration.",
+        "Developed lineage mapping across Kafka topics, producers, consumers, and connectors for precise dependency planning.",
+        "Built and scaled event-driven microservices for servicing workflows designed to handle 200+ event types.",
+        "Introduced Flink SQL on Confluent Cloud and automated pipeline creation through Confluent Cloud REST APIs.",
+        "Integrated 10+ data sources into centralized pipelines handling 100M+ events/day with a 75% performance improvement."
+      ],
+      tags: ["Kafka", "Flink SQL", "Confluent Cloud", "Microservices", "Data lineage"]
+    },
+    {
+      role: "Software Development Engineer II",
+      company: "Mr. Cooper",
+      detail: "Chennai, India",
+      period: "May 2022 - Apr 2024",
+      theme: "Reliable platform APIs",
+      metrics: ["10K+ req/min", "99.9% availability", "$150K/year saved"],
+      highlights: [
+        "Engineered secure REST APIs for producing data to Kafka topics through Apigee across multiple teams.",
+        "Implemented real-time monitoring and alerting jobs that surfaced 5+ proactive alerts per hour.",
+        "Built standardized Kafka Connect base images for databases, cloud storage, and warehouse integrations.",
+        "Automated cloud data lifecycle policies in Azure Data Lake, saving $150K annually."
+      ],
+      tags: ["REST APIs", "Apigee", "Kafka Connect", "Azure Data Lake", "Monitoring"]
+    },
+    {
+      role: "Software Development Engineer",
+      company: "Mr. Cooper",
+      detail: "Chennai, India",
+      period: "July 2020 - Apr 2022",
+      theme: "Streaming platform foundations",
+      metrics: ["2000+ topics", "40% lower latency", "100% data integrity"],
+      highlights: [
+        "Helped build a centralized platform for Kafka topic management and access control across clusters.",
+        "Integrated cluster-level processing metrics, billing insights, and consumer activity for cost and resource visibility.",
+        "Built real-time stream processors with Kafka Streams for data enrichment and lower event-handling latency.",
+        "Created migration scripts to transition Kafka resources from Azure to GCP while preserving data integrity."
+      ],
+      tags: ["Kafka Streams", "Platform tooling", "GCP", "Azure", "Access control"]
+    },
+    {
+      role: "Graduate Intern",
+      company: "Mr. Cooper",
+      detail: "Chennai, India",
+      period: "Jan 2020 - Jun 2020",
+      theme: "Automation and developer experience",
+      metrics: ["50% less testing effort", "Python packages", "Ruby gems"],
+      highlights: [
+        "Developed Kafka library wrappers as Python packages and Ruby gems to simplify integration and serialization.",
+        "Created an automated functional testing tool that reduced manual testing effort and accelerated deployments.",
+        "Migrated applications to Azure Kubernetes Service for improved scalability and operational management."
+      ],
+      tags: ["Python", "Ruby", "Kafka wrappers", "AKS", "Testing automation"]
+    }
+  ];
+
   return (
     <section id="work-experience" className="work-experience-container">
-      <h2 className="work-experience-heading">My work experience,</h2>
-      <div className="work-experience-item">
-        <h3>Sr. Software Development Engineer | Rocket India (formerly Mr. Cooper), Chennai, India</h3>
-        <p><strong>May 2024 – Present</strong></p>
-        <ul>
-          <li>Led large-scale Kafka cluster migration from Confluent public clusters to private clusters, successfully transitioning 200+ topics across 20+ application teams with zero data loss.</li>
-          <li>Designed and implemented cluster linking and topic mirroring strategies, ensuring seamless data flow and zero-downtime migration.</li>
-          <li>Developed comprehensive data lineage mapping across Kafka topics, producers, consumers, and connectors, enabling strategic migration planning and dependency resolution.</li>
-          <li>Built and scaled event-driven microservices architecture for servicing workflows designed to handle 200+ event types.</li>
-          <li>Introduced Flink SQL (Confluent Cloud) for real-time stream processing, automating pipeline creation using Confluent Cloud REST APIs and enabling lightweight transformations.</li>
-          <li>Contributed to data streaming solutions for Front Office Modernization, integrating 10+ data sources into centralized pipelines handling 100M+ events/day with 75% performance improvement.</li>
-        </ul>
+      <div className="section-heading">
+        <p className="section-kicker">Experience</p>
+        <h2>Impact across streaming, migration, and platform engineering.</h2>
       </div>
-      <div className="work-experience-item">
-        <h3>Software Development Engineer II | Mr. Cooper, Chennai, India</h3>
-        <p><strong>May 2022 – Apr 2024</strong></p>
-        <ul>
-          <li>Engineered REST APIs for efficient data production to Kafka topics, utilizing Apigee to ensure secure and scalable access across multiple teams, ensuring 0 data loss for 10K+ requests/min with 99.9% availability.</li>
-          <li>Implemented alerting jobs for real-time monitoring, generating 5+ proactive alerts per hour to ensure timely issue resolution.</li>
-          <li>Built and standardized Kafka Connect base images supporting seamless integration with diverse data sources including databases, cloud storage, and data warehouses.</li>
-          <li>Automated cloud data lifecycle policies in Azure Data Lake, saving $150K/year.</li>
-        </ul>
-      </div>
-      <div className="work-experience-item">
-        <h3>Software Development Engineer | Mr. Cooper, Chennai, India</h3>
-        <p><strong>July 2020 – Apr 2022</strong></p>
-        <ul>
-          <li>Played a key role in developing a centralized platform for Kafka topic management and access control, streamlining management of 2000+ Kafka topics across clusters.</li>
-          <li>Integrated cluster-level event processing metrics, billing insights, and consumer activity for cost and resource monitoring with stream lineage insights.</li>
-          <li>Built real-time stream processors using Kafka Streams, optimizing data enrichment and improving event handling latency by 40%.</li>
-          <li>Created robust migration scripts to transition Kafka resources from Azure to GCP, ensuring 100% data integrity throughout the process.</li>
-        </ul>
-      </div>
-      <div className="work-experience-item">
-        <h3>Graduate Intern | Mr. Cooper, Chennai, India</h3>
-        <p><strong>Jan 2020 - Jun 2020</strong></p>
-        <ul>
-          <li>Developed Kafka library wrappers as Python packages and Ruby gems, simplifying integration and enabling seamless data serialization.</li>
-          <li>Devised an automated functional testing tool, reducing manual testing effort by 50% and accelerating deployment cycles.</li>
-          <li>Migrated applications to Azure Kubernetes Service (AKS), enhancing scalability and management.</li>
-        </ul>
+      <div className="experience-timeline">
+        {experiences.map((experience, index) => (
+          <article className="experience-card" key={`${experience.role}-${experience.period}`}>
+            <div className="experience-card__marker" aria-hidden="true">{String(index + 1).padStart(2, "0")}</div>
+            <div className="experience-card__header">
+              <div>
+                <p className="experience-card__theme">{experience.theme}</p>
+                <h3>{experience.role}</h3>
+                <p className="experience-card__company">{experience.company} <span>{experience.detail}</span></p>
+              </div>
+              <time>{experience.period}</time>
+            </div>
+            <div className="experience-card__metrics">
+              {experience.metrics.map((metric) => (
+                <span key={metric}>{metric}</span>
+              ))}
+            </div>
+            <ul className="experience-card__highlights">
+              {experience.highlights.map((highlight) => (
+                <li key={highlight}>{highlight}</li>
+              ))}
+            </ul>
+            <div className="experience-card__tags">
+              {experience.tags.map((tag) => (
+                <span key={tag}>{tag}</span>
+              ))}
+            </div>
+          </article>
+        ))}
       </div>
     </section>
   );
