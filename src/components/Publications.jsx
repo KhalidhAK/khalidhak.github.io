@@ -8,14 +8,14 @@ export default function Publications() {
   ];
 
   return (
-    <section className="publications-container">
+    <section className="publications-container" data-reveal>
       <div className="section-heading">
         <p className="section-kicker">Writing</p>
         <h2>Sharing practical patterns from streaming data work.</h2>
       </div>
       <div className="publications-list">
         {publications.map((pub, index) => (
-          <article key={index} className="publication-card">
+          <article key={index} className="publication-card" data-reveal>
             <span>{pub.source}</span>
             <a href={pub.url} target="_blank" rel="noopener noreferrer">
               {pub.title}

@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section id="about" className="about-container">
+    <section id="about" className="about-container" data-reveal>
       <p className="section-kicker">About</p>
       <h2>Building dependable data systems for high-volume products.</h2>
       <p className="about-text">

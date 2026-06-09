@@ -23,14 +23,14 @@ export default function Skills() {
   ];
 
   return (
-    <section id="skills" className="skills-container">
+    <section id="skills" className="skills-container" data-reveal>
       <div className="section-heading">
         <p className="section-kicker">Skills</p>
         <h2>Tools I use to design, ship, and operate production systems.</h2>
       </div>
       <div className="skills-grid">
-        {skillGroups.map((group) => (
-          <article className="skill-card" key={group.title}>
+        {skillGroups.map((group, index) => (
+          <article className="skill-card" key={group.title} data-reveal data-reveal-delay={index % 4}>
             <h3>{group.title}</h3>
             <div>
               {group.items.map((item) => (

@@ -71,7 +71,12 @@ export default function WorkExperience() {
       </div>
       <div className="experience-timeline">
         {experiences.map((experience, index) => (
-          <article className="experience-card" key={`${experience.role}-${experience.period}`}>
+          <article
+            className="experience-card"
+            key={`${experience.role}-${experience.period}`}
+            data-reveal
+            data-reveal-delay={index % 3}
+          >
             <div className="experience-card__marker" aria-hidden="true">{String(index + 1).padStart(2, "0")}</div>
             <div className="experience-card__header">
               <div>
