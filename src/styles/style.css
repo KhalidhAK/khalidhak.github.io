@@ -238,7 +238,7 @@ a {
 .hero__panel span {
   display: block;
   color: var(--blue);
-  font-size: clamp(2rem, 5vw, 3.3rem);
+  font-size: clamp(2rem, 2.5vw, 3.3rem);
   font-weight: 900;
   line-height: 1;
 }

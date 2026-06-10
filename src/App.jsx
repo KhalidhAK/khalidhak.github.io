@@ -18,7 +18,8 @@ export default function App() {
             real-time data platforms, and cloud-native services at scale.
           </p>
           <div className="hero__actions" aria-label="Contact links">
-            <a href="mailto:khalidh98@gmail.com">Email</a>
+            <a href="mailto:khalidh98@gmail.com">khalidh98@gmail.com</a>
+            <a href="tel:+917539903768">+91 75399 03768</a>
             <a href="https://www.linkedin.com/in/khalidh-ahamed" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             <a href="/khalidh_ahamed_resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
           </div>
@@ -31,16 +32,16 @@ export default function App() {
           </div>
           <div className="hero__panel" aria-label="Career snapshot">
             <div className="metric-card">
-              <span>100M+</span>
-              <p>events processed per day</p>
+              <span>Event-Driven Architecture</span>
+              <p>Domain-driven design · System resilience</p>
             </div>
             <div className="metric-card">
-              <span>200+</span>
-              <p>Kafka topics migrated</p>
+              <span>Streaming & Data Platforms</span>
+              <p>Kafka · Real-time processing · ETL pipelines</p>
             </div>
             <div className="metric-card">
-              <span>99.9%</span>
-              <p>availability across critical APIs</p>
+              <span>Fullstack Engineering</span>
+              <p>Spring Boot · Cloud services · React · Next.js</p>
             </div>
           </div>
         </div>
