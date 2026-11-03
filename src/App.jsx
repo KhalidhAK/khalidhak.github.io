@@ -1,68 +1,26 @@
+import TopBar from "./components/TopBar";
+import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import WorkExperience from "./components/WorkExperience";
 import Publications from "./components/Publications";
-import useScrollReveal from "./hooks/useScrollReveal";
+import Footer from "./components/Footer";
+import useSiteInteractions from "./hooks/useSiteInteractions";
 
 export default function App() {
-  useScrollReveal();
+  const ui = useSiteInteractions();
 
   return (
-    <>
-      <header className="hero">
-        <div className="hero__content" data-reveal>
-          <p className="eyebrow">Streaming platforms · Backend systems · AI exploration</p>
-          <h1>Khalidh Ahamed</h1>
-          <p className="hero__summary">
-            Software engineer building reliable event-driven systems,
-            real-time data platforms, and cloud-native services at scale.
-          </p>
-          <div className="hero__actions" aria-label="Contact links">
-            <a href="mailto:khalidh98@gmail.com">khalidh98@gmail.com</a>
-            <a href="tel:+917539903768">+91 75399 03768</a>
-            <a href="https://www.linkedin.com/in/khalidh-ahamed" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            <a href="/khalidh_ahamed_resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
-          </div>
-        </div>
-        <div className="hero__visual" data-reveal data-reveal-delay="2">
-          <div className="signal-orbit" aria-hidden="true">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <div className="hero__panel" aria-label="Career snapshot">
-            <div className="metric-card">
-              <span>Event-Driven Architecture</span>
-              <p>Domain-driven design · System resilience</p>
-            </div>
-            <div className="metric-card">
-              <span>Streaming & Data Platforms</span>
-              <p>Kafka · Real-time processing · ETL pipelines</p>
-            </div>
-            <div className="metric-card">
-              <span>Fullstack Engineering</span>
-              <p>Spring Boot · Cloud services · React · Next.js</p>
-            </div>
-          </div>
-        </div>
-      </header>
-      <main>
-        <About />
-        <section id="skills">
-          <Skills />
-        </section>
-        <section id="work-experience">
-          <WorkExperience />
-        </section>
-        <section id="publications">
-          <Publications />
-        </section>
-        {/* Remove the Contact section */}
+    <div className={`site ${ui.themeClass}`} style={{ color: "var(--ink)", fontFamily: "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif", fontSynthesis: "none", textRendering: "optimizeLegibility", lineHeight: "1.6" }}>
+      <TopBar ui={ui} />
+      <Hero ui={ui} />
+      <main className="main" style={{ width: "min(1160px, calc(100% - 2rem))", margin: "0 auto", paddingBottom: "clamp(3rem, 8vw, 6rem)" }}>
+        <About ui={ui} />
+        <Skills ui={ui} />
+        <WorkExperience ui={ui} />
+        <Publications ui={ui} />
       </main>
-      <footer>
-        <p>"When you look at the vast size of the universe, and how insignificant and accidental human life is in it, that seems most implausible." - Stephen Hawking
-        </p>
-      </footer>
-    </>
+      <Footer ui={ui} />
+    </div>
   );
 }
