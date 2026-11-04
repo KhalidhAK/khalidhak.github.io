@@ -3,7 +3,7 @@ export default function Hero({ ui }) {
     <header id="top" className="hero" style={{ display: "grid", gridTemplateColumns: "minmax(0, 1fr) minmax(280px, 420px)", gap: "clamp(1.5rem, 5vw, 4rem)", alignItems: "center", width: "min(1160px, calc(100% - 2rem))", minHeight: "92vh", margin: "0 auto", overflow: "clip", padding: "clamp(3rem, 8vw, 6rem) 0 4rem" }}>
       <div className="rise" style={{ maxWidth: "780px" }}>
         <p className="pixel-font" style={{ margin: "0 0 0.75rem", color: "var(--eyebrow)", fontSize: "0.72rem", fontWeight: "700", textTransform: "uppercase" }}>
-          Streaming platforms · Backend systems · AI exploration
+          Java · Kafka · Spring Boot · React
         </p>
         <h1 className="name" style={{ maxWidth: "760px", margin: "0", fontSize: "clamp(3.2rem, 10vw, 7.8rem)", lineHeight: "0.92", letterSpacing: "0" }}>
           <span style={{ position: "relative", display: "inline-block" }}>
@@ -364,7 +364,7 @@ export default function Hero({ ui }) {
                       <rect className="f-amber star" x="20" y="4" width="1" height="1" style={{ animationDelay: "1.1s" }} />
                     </svg>
                     <p className="story-in" style={{ margin: "0", color: "var(--body)", fontSize: "0.95rem" }}>
-                      Since 2020 I've built systems where events are the source of truth. At Rocket I scaled event-driven microservices for servicing workflows covering 200+ event types, and designed the cluster linking and topic mirroring that kept data flowing through a zero-downtime migration.
+                      Since 2020 I've built systems where events are the source of truth. At Rocket I scaled event-driven microservices for servicing workflows covering <span className="metric">200+</span> event types, and designed the cluster linking and topic mirroring that kept data flowing through a <span className="metric">zero-downtime</span> migration.
                     </p>
                   </div>
                 </>
@@ -413,7 +413,7 @@ export default function Hero({ ui }) {
                       <rect className="f-green led" x="21" y="15" width="1" height="1" />
                     </svg>
                     <p className="story-in" style={{ margin: "0", color: "var(--body)", fontSize: "0.95rem" }}>
-                      Kafka has been home for six years. I helped build the platform that managed 2000+ topics, led the move of 200+ topics across 20+ app teams with zero data loss, and integrated 10+ sources into pipelines handling 100M+ events a day, 75% faster, with Kafka Streams and Flink SQL doing the real-time work.
+                      Kafka has been home for six years. I helped build the platform that managed <span className="metric">2000+</span> topics, led the move of <span className="metric">200+</span> topics across <span className="metric">20+</span> app teams with <span className="metric">zero data loss</span>, and integrated <span className="metric">10+</span> sources into pipelines handling <span className="metric">100M+</span> events a day, <span className="metric">75%</span> faster, with Kafka Streams and Flink SQL doing the real-time work.
                     </p>
                   </div>
                 </>
@@ -460,7 +460,7 @@ export default function Hero({ ui }) {
                       <rect className="f-amber star" x="20" y="4" width="1" height="1" style={{ animationDelay: "0.9s" }} />
                     </svg>
                     <p className="story-in" style={{ margin: "0", color: "var(--body)", fontSize: "0.95rem" }}>
-                      I ship the whole path, not just the pipes: Spring Boot services and secure Apigee REST APIs holding 10K+ requests a minute at 99.9% availability, deployed on Kubernetes across Azure and GCP, with React and Next.js when a product needs a front end.
+                      I ship the whole path, not just the pipes: Spring Boot services and secure Apigee REST APIs holding <span className="metric">10K+</span> requests a minute at <span className="metric">99.9%</span> availability, deployed on Kubernetes across Azure and GCP, with React and Next.js when a product needs a front end.
                     </p>
                   </div>
                 </>

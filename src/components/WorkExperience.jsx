@@ -80,7 +80,7 @@ export default function WorkExperience({ ui }) {
                     &gt;
                   </span>
                   <span style={{ color: "var(--body)" }}>
-                    Led large-scale Kafka cluster migration of 200+ topics from Confluent public clusters to private clusters across 20+ application teams, with zero data loss.
+                    Led large-scale Kafka cluster migration of <span className="metric">200+</span> topics from Confluent public clusters to private clusters across <span className="metric">20+</span> application teams, with <span className="metric">zero data loss</span>.
                   </span>
                 </span>
                 {" "}
@@ -120,7 +120,7 @@ export default function WorkExperience({ ui }) {
                       <rect className="f-green led" x="43" y="7" width="1" height="1" />
                     </svg>
                     <p className="story-in" style={{ margin: "0", color: "var(--ink)", fontSize: "0.95rem" }}>
-                      Moved 200+ topics for 20+ app teams off shared Confluent public clusters onto private ones with zero data loss, not a single event lost.
+                      Moved <span className="metric">200+</span> topics for <span className="metric">20+</span> app teams off shared Confluent public clusters onto private ones with <span className="metric">zero data loss</span>, not a single event lost.
                     </p>
                   </div>
                 </>
@@ -134,7 +134,7 @@ export default function WorkExperience({ ui }) {
                     &gt;
                   </span>
                   <span style={{ color: "var(--body)" }}>
-                    Designed cluster linking and topic mirroring strategies to keep data flowing through a zero-downtime migration.
+                    Designed cluster linking and topic mirroring strategies to keep data flowing through a <span className="metric">zero-downtime</span> migration.
                   </span>
                 </span>
                 {" "}
@@ -173,7 +173,7 @@ export default function WorkExperience({ ui }) {
                       <rect className="f-green glow" x="4" y="25" width="40" height="1" />
                     </svg>
                     <p className="story-in" style={{ margin: "0", color: "var(--ink)", fontSize: "0.95rem" }}>
-                      Cluster links mirrored every topic from old to new, so producers and consumers kept flowing while teams cut over, with zero downtime.
+                      Cluster links mirrored every topic from old to new, so producers and consumers kept flowing while teams cut over, with <span className="metric">zero downtime</span>.
                     </p>
                   </div>
                 </>
@@ -243,7 +243,7 @@ export default function WorkExperience({ ui }) {
                     &gt;
                   </span>
                   <span style={{ color: "var(--body)" }}>
-                    Built and scaled event-driven microservices for servicing workflows designed to handle 200+ event types.
+                    Built and scaled event-driven microservices for servicing workflows designed to handle <span className="metric">200+</span> event types.
                   </span>
                 </span>
                 {" "}
@@ -295,7 +295,7 @@ export default function WorkExperience({ ui }) {
                       <rect className="f-amber led" x="35" y="14" width="2" height="2" style={{ animationDelay: "0.9s" }} />
                     </svg>
                     <p className="story-in" style={{ margin: "0", color: "var(--ink)", fontSize: "0.95rem" }}>
-                      Servicing workflows became a village of microservices, each owning its events across 200+ event types.
+                      Servicing workflows became a village of microservices, each owning its events across <span className="metric">200+</span> event types.
                     </p>
                   </div>
                 </>
@@ -357,7 +357,7 @@ export default function WorkExperience({ ui }) {
                     &gt;
                   </span>
                   <span style={{ color: "var(--body)" }}>
-                    Integrated 10+ data sources into centralized pipelines handling 100M+ events/day with a 75% performance improvement.
+                    Integrated <span className="metric">10+</span> data sources into centralized pipelines handling <span className="metric">100M+</span> events/day with a <span className="metric">75%</span> performance improvement.
                   </span>
                 </span>
                 {" "}
@@ -405,7 +405,7 @@ export default function WorkExperience({ ui }) {
                       <rect className="f-rack" x="39" y="13" width="3" height="2" />
                     </svg>
                     <p className="story-in" style={{ margin: "0", color: "var(--ink)", fontSize: "0.95rem" }}>
-                      10+ sources now flow into one centralized pipeline carrying 100M+ events a day, 75% faster than before.
+                      <span className="metric">10+</span> sources now flow into one centralized pipeline carrying <span className="metric">100M+</span> events a day, <span className="metric">75%</span> faster than before.
                     </p>
                   </div>
                 </>
@@ -467,7 +467,7 @@ export default function WorkExperience({ ui }) {
                     &gt;
                   </span>
                   <span style={{ color: "var(--body)" }}>
-                    Engineered secure REST APIs for producing data to Kafka topics through Apigee across multiple teams, handling 10K+ requests/min at 99.9% availability.
+                    Engineered secure REST APIs for producing data to Kafka topics through Apigee across multiple teams, handling <span className="metric">10K+</span> requests/min at <span className="metric">99.9%</span> availability.
                   </span>
                 </span>
                 {" "}
@@ -499,7 +499,7 @@ export default function WorkExperience({ ui }) {
                       <rect className="f-green led" x="15" y="6" width="1" height="1" style={{ animationDelay: "0.6s" }} />
                     </svg>
                     <p className="story-in" style={{ margin: "0", color: "var(--ink)", fontSize: "0.95rem" }}>
-                      Teams produce to Kafka through secure Apigee REST APIs that hold 10K+ requests a minute at 99.9% availability.
+                      Teams produce to Kafka through secure Apigee REST APIs that hold <span className="metric">10K+</span> requests a minute at <span className="metric">99.9%</span> availability.
                     </p>
                   </div>
                 </>
@@ -513,7 +513,7 @@ export default function WorkExperience({ ui }) {
                     &gt;
                   </span>
                   <span style={{ color: "var(--body)" }}>
-                    Implemented real-time monitoring and alerting jobs that surfaced 5+ proactive alerts per hour.
+                    Implemented real-time monitoring and alerting jobs that surfaced <span className="metric">5+</span> proactive alerts per hour.
                   </span>
                 </span>
                 {" "}
@@ -548,7 +548,7 @@ export default function WorkExperience({ ui }) {
                       <rect className="f-amber led" x="40" y="6" width="2" height="1" style={{ animationDuration: "0.6s" }} />
                     </svg>
                     <p className="story-in" style={{ margin: "0", color: "var(--ink)", fontSize: "0.95rem" }}>
-                      Real-time monitoring jobs keep watch over the streams and raise 5+ proactive alerts every hour.
+                      Real-time monitoring jobs keep watch over the streams and raise <span className="metric">5+</span> proactive alerts every hour.
                     </p>
                   </div>
                 </>
@@ -609,7 +609,7 @@ export default function WorkExperience({ ui }) {
                     &gt;
                   </span>
                   <span style={{ color: "var(--body)" }}>
-                    Automated cloud data lifecycle policies in Azure Data Lake, saving $150K annually.
+                    Automated cloud data lifecycle policies in Azure Data Lake, saving <span className="metric">$150K</span> annually.
                   </span>
                 </span>
                 {" "}
@@ -647,7 +647,7 @@ export default function WorkExperience({ ui }) {
                       <rect className="f-bug2" x="35" y="21" width="10" height="1" />
                     </svg>
                     <p className="story-in" style={{ margin: "0", color: "var(--ink)", fontSize: "0.95rem" }}>
-                      Automated lifecycle policies keep Azure Data Lake tidy, saving $150K every year.
+                      Automated lifecycle policies keep Azure Data Lake tidy, saving <span className="metric">$150K</span> every year.
                     </p>
                   </div>
                 </>
@@ -709,7 +709,7 @@ export default function WorkExperience({ ui }) {
                     &gt;
                   </span>
                   <span style={{ color: "var(--body)" }}>
-                    Helped build a centralized platform for Kafka topic management and access control, covering 2000+ topics across clusters.
+                    Helped build a centralized platform for Kafka topic management and access control, covering <span className="metric">2000+</span> topics across clusters.
                   </span>
                 </span>
                 {" "}
@@ -747,7 +747,7 @@ export default function WorkExperience({ ui }) {
                       <rect className="f-ink" x="38" y="14" width="2" height="3" />
                     </svg>
                     <p className="story-in" style={{ margin: "0", color: "var(--ink)", fontSize: "0.95rem" }}>
-                      One platform to manage 2000+ Kafka topics and who can access them, across every cluster.
+                      One platform to manage <span className="metric">2000+</span> Kafka topics and who can access them, across every cluster.
                     </p>
                   </div>
                 </>
@@ -806,7 +806,7 @@ export default function WorkExperience({ ui }) {
                     &gt;
                   </span>
                   <span style={{ color: "var(--body)" }}>
-                    Built real-time stream processors with Kafka Streams for data enrichment, cutting event-handling latency by 40%.
+                    Built real-time stream processors with Kafka Streams for data enrichment, cutting event-handling latency by <span className="metric">40%</span>.
                   </span>
                 </span>
                 {" "}
@@ -844,7 +844,7 @@ export default function WorkExperience({ ui }) {
                       <rect className="f-green led" x="20" y="14" width="2" height="1" />
                     </svg>
                     <p className="story-in" style={{ margin: "0", color: "var(--ink)", fontSize: "0.95rem" }}>
-                      Kafka Streams processors enrich events in flight, cutting event-handling latency by 40%.
+                      Kafka Streams processors enrich events in flight, cutting event-handling latency by <span className="metric">40%</span>.
                     </p>
                   </div>
                 </>
@@ -858,7 +858,7 @@ export default function WorkExperience({ ui }) {
                     &gt;
                   </span>
                   <span style={{ color: "var(--body)" }}>
-                    Created migration scripts to transition Kafka resources from Azure to GCP with 100% data integrity.
+                    Created migration scripts to transition Kafka resources from Azure to GCP with <span className="metric">100%</span> data integrity.
                   </span>
                 </span>
                 {" "}
@@ -894,7 +894,7 @@ export default function WorkExperience({ ui }) {
                       <rect className="f-green led" x="44" y="2" width="2" height="2" />
                     </svg>
                     <p className="story-in" style={{ margin: "0", color: "var(--ink)", fontSize: "0.95rem" }}>
-                      Migration scripts carried Kafka resources from Azure to GCP with 100% data integrity.
+                      Migration scripts carried Kafka resources from Azure to GCP with <span className="metric">100%</span> data integrity.
                     </p>
                   </div>
                 </>
@@ -1005,7 +1005,7 @@ export default function WorkExperience({ ui }) {
                     &gt;
                   </span>
                   <span style={{ color: "var(--body)" }}>
-                    Created an automated functional testing tool that reduced manual testing effort by 50% and accelerated deployments.
+                    Created an automated functional testing tool that reduced manual testing effort by <span className="metric">50%</span> and accelerated deployments.
                   </span>
                 </span>
                 {" "}
@@ -1042,7 +1042,7 @@ export default function WorkExperience({ ui }) {
                       </g>
                     </svg>
                     <p className="story-in" style={{ margin: "0", color: "var(--ink)", fontSize: "0.95rem" }}>
-                      An automated functional testing tool cut manual testing effort by 50% and sped up deployments.
+                      An automated functional testing tool cut manual testing effort by <span className="metric">50%</span> and sped up deployments.
                     </p>
                   </div>
                 </>

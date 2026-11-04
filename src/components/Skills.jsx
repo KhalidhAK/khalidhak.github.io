@@ -200,7 +200,7 @@ export default function Skills({ ui }) {
               ITEM 01 · LANGUAGES
             </p>
             <p style={{ margin: "0", color: "var(--body)", fontSize: "0.95rem" }}>
-              Every quest starts with a spellbook. Java powers the Spring Boot microservices I build for 200+ servicing event types. Python and Ruby were my first artifacts: as an intern I wrapped Kafka libraries into packages and gems so teams could plug in fast.
+              Every quest starts with a spellbook. Java powers the Spring Boot microservices I build for <span className="metric">200+</span> servicing event types. Python and Ruby were my first artifacts: as an intern I wrapped Kafka libraries into packages and gems so teams could plug in fast.
             </p>
             <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
               <span style={{ border: "1px solid var(--chip-line)", borderRadius: "2px", padding: "0.4rem 0.65rem", background: "var(--chip-bg)", color: "var(--chip-ink)", fontSize: "0.86rem", fontWeight: "700" }}>
@@ -267,7 +267,7 @@ export default function Skills({ ui }) {
               ITEM 02 · BACKEND &amp; STREAMING
             </p>
             <p style={{ margin: "0", color: "var(--body)", fontSize: "0.95rem" }}>
-              Raw events go in, enriched events come out. I built Kafka Streams processors that enrich data in flight and cut event-handling latency by 40%, then integrated 10+ sources into pipelines that move 100M+ events a day.
+              Raw events go in, enriched events come out. I built Kafka Streams processors that enrich data in flight and cut event-handling latency by <span className="metric">40%</span>, then integrated <span className="metric">10+</span> sources into pipelines that move <span className="metric">100M+</span> events a day.
             </p>
             <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
               <span style={{ border: "1px solid var(--chip-line)", borderRadius: "2px", padding: "0.4rem 0.65rem", background: "var(--chip-bg)", color: "var(--chip-ink)", fontSize: "0.86rem", fontWeight: "700" }}>
@@ -530,7 +530,7 @@ export default function Skills({ ui }) {
               ITEM 03 · CLOUD &amp; DEVOPS
             </p>
             <p style={{ margin: "0", color: "var(--body)", fontSize: "0.95rem" }}>
-              Containers needed a new home. As an intern I moved applications onto Azure Kubernetes Service, and later I wrote the scripts that carried Kafka resources from Azure to GCP with 100% data integrity.
+              Containers needed a new home. As an intern I moved applications onto Azure Kubernetes Service, and later I wrote the scripts that carried Kafka resources from Azure to GCP with <span className="metric">100%</span> data integrity.
             </p>
             <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
               <span style={{ border: "1px solid var(--chip-line)", borderRadius: "2px", padding: "0.4rem 0.65rem", background: "var(--chip-bg)", color: "var(--chip-ink)", fontSize: "0.86rem", fontWeight: "700" }}>
@@ -605,7 +605,7 @@ export default function Skills({ ui }) {
               ITEM 04 · APIS &amp; TOOLS
             </p>
             <p style={{ margin: "0", color: "var(--body)", fontSize: "0.95rem" }}>
-              Nothing enters the stream without a pass. I engineered secure REST APIs through Apigee that let teams produce to Kafka, holding 10K+ requests a minute at 99.9% availability, with Git and shell scripts keeping the gate in order.
+              Nothing enters the stream without a pass. I engineered secure REST APIs through Apigee that let teams produce to Kafka, holding <span className="metric">10K+</span> requests a minute at <span className="metric">99.9%</span> availability, with Git and shell scripts keeping the gate in order.
             </p>
             <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
               <span style={{ border: "1px solid var(--chip-line)", borderRadius: "2px", padding: "0.4rem 0.65rem", background: "var(--chip-bg)", color: "var(--chip-ink)", fontSize: "0.86rem", fontWeight: "700" }}>
