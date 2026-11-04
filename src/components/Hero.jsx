@@ -3,7 +3,7 @@ export default function Hero({ ui }) {
     <header id="top" className="hero" style={{ display: "grid", gridTemplateColumns: "minmax(0, 1fr) minmax(280px, 420px)", gap: "clamp(1.5rem, 5vw, 4rem)", alignItems: "center", width: "min(1160px, calc(100% - 2rem))", minHeight: "92vh", margin: "0 auto", overflow: "clip", padding: "clamp(3rem, 8vw, 6rem) 0 4rem" }}>
       <div className="rise" style={{ maxWidth: "780px" }}>
         <p className="pixel-font" style={{ margin: "0 0 0.75rem", color: "var(--eyebrow)", fontSize: "0.72rem", fontWeight: "700", textTransform: "uppercase" }}>
-          Java · Kafka · Spring Boot · React
+          Java · Kafka · Flink · Spring Boot · React
         </p>
         <h1 className="name" style={{ maxWidth: "760px", margin: "0", fontSize: "clamp(3.2rem, 10vw, 7.8rem)", lineHeight: "0.92", letterSpacing: "0" }}>
           <span style={{ position: "relative", display: "inline-block" }}>
